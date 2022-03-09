@@ -11,7 +11,6 @@ export const AddNotes = ({ route, navigation }) => {
     const [Body, setBody] = useState('')
 
 
-    // const state = useSelector((state) => state)
     const dispPatch = useDispatch()
 
     const AddFun = () => {
@@ -52,7 +51,6 @@ export const AddNotes = ({ route, navigation }) => {
 
 
 
-                {/* <View style={{ paddingVertical: RFPercentage(6), backgroundColor: '#aee5e4', alignSelf: 'center', alignItems: 'center', marginTop: 30, borderRadius: RFPercentage(2) }}> */}
                 <TextInput
                     value={Title}
                     multiline={true}
@@ -79,7 +77,6 @@ export const AddNotes = ({ route, navigation }) => {
                     ></TextInput>
 
 
-                    {/* </View> */}
                 </ScrollView>
 
                 <View style={{ width, alignItems: 'center', height: height * .09, justifyContent: 'center' }}>
